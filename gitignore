@@ -1,0 +1,29 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Model checkpoints & artefak besar
+models/*.bin
+models/*.pt
+models/*.ckpt
+*.h5
+
+# Data mentah/besar yang tidak perlu di-commit langsung
+data/raw/*
+!data/raw/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Metadata export Google Drive (jangan commit file zip mentah)
+*-20*T*Z-*.zip
